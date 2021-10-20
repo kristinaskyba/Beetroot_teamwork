@@ -1,5 +1,5 @@
-@import 'reset';
-@import 'normalize';
+@import './_reset';
+@import './_normalize';
 /*
  Что ето :
     _reset.scss — как и видно по названию файла, сбрасывает большинство стилей браузера, которые в нем заданы по
@@ -15,4 +15,4 @@
      @info all = https://developer.mozilla.org/ru/docs/Web/CSS/all
      @info unset = https://developer.mozilla.org/en-US/docs/Web/CSS/unset
 */
-@import 'main';
+@import './_main';

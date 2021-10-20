@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.Latest_works {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 87px auto 190px auto;
+}
+.Latest_works .title_Latest_works {
+  color: #3677fd;
+  margin-bottom: 98px;
+  font-size: 34px;
+  font-family: "Lato", sans-serif;
+}
+.Latest_works .grid_Latest_works {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: 270px 270px;
+  grid-column-gap: 20px;
+  grid-row-gap: 52px;
+  justify-content: center;
+  align-content: center;
+}
