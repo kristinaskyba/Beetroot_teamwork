@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./scss/styles.css">
+    <title>Form 2</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <p class="header__p">This site uses cookies, so that my service can work better.</p>
+            <button class="btn">Accept</button>
+        </header>
+        <div class="container">
+            <div class="form__body">
+                <form class="form" action="/" method="post">
+                    <h1 class="form__title">Hire Me</h1>
+                    <div class="form__group__item">
+                        <input class="input"    requiredminlength="3"type="text"   placeholder="Your name">
+                    </div>
+                    <div class="form__group__item">
+                        <input class="input" requiredtype="email"pattern=".{8,  }" placeholder="Your email*...">
+                    </div>
+                    <div class="form__group__item">
+                        <textarea   class="textarea"name="text" placeholder="Your meassage"></textarea>
+                    </div>
+                    <div class="form__button">
+                        <button class="btn btn--form">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div><!-- /.form__body -->
+        </div><!-- container -->
+    </div><!-- /.Page -->
+</body>
+</html>
