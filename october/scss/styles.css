@@ -753,6 +753,7 @@ template {
 
 .expert .wrapper .expert__item {
   width: 33%;
+  min-width: 200px;
 }
 
 .expert .wrapper .expert__item .expert__img {
