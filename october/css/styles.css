@@ -738,8 +738,12 @@ template {
 <<<<<<< HEAD
 =======
   font-family: Lato;
+<<<<<<< HEAD
   font-weight: 700;
 >>>>>>> c3643e3c87556b42594df3ebdc6ee016c68cc313
+=======
+  font-weight: 300;
+>>>>>>> a5d951b34b2346cd57b85eae8fb4be7adf4cd172
   font-size: 50px;
   line-height: 35px;
   color: #3677fd;
@@ -755,7 +759,6 @@ template {
 =======
   text-align: center;
   margin-bottom: 100px;
-  /*УДАЛИТЬ*/
 }
 
 .body {
@@ -775,6 +778,7 @@ template {
           align-items: center;
   margin: 0 auto;
   margin-top: 80px;
+  padding-bottom: 100px;
 }
 
 .ico-bar__ico {
@@ -788,6 +792,10 @@ template {
 }
 
 .footer__button {
+  color: #449cff;
+  background: white;
+  border: none;
+  margin-left: 50px;
   display: inline-block;
   font-family: Lato;
   font-weight: 700;
@@ -809,20 +817,35 @@ template {
 }
 
 .footer__text {
+  display: inline-block;
   font-family: Lato;
   font-weight: 300;
   font-size: 50px;
   color: white;
 }
 
+<<<<<<< HEAD
 .footer {
 <<<<<<< HEAD
   width: 100%;
 >>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
 =======
+=======
+.footer__wrapper {
+>>>>>>> a5d951b34b2346cd57b85eae8fb4be7adf4cd172
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer {
   padding: 100px 0;
   background: linear-gradient(39deg, #3695ff 0%, #3695ff 30%, #3564fc 30%, #3695ff 40%);
 >>>>>>> c3643e3c87556b42594df3ebdc6ee016c68cc313
