@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
 .clients {
   width: 100%;
@@ -13,22 +13,89 @@
   font-size: 50px;
   color: #3677fd;
   text-align: center;
+<<<<<<< HEAD
+=======
+  margin-bottom: 100px;
+
+>>>>>>> 57cb995b8d54ce4c1e83016ca5c2109a41ec202d
 }
 
 
-.body{
+.body {
   max-width: 2000px;
 }
 
-.clients__ico-bar{
+.clients__ico-bar {
   display: flex;
   min-width: 1140px;
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
   margin-top: 80px;
+<<<<<<< HEAD
+=======
+  padding-bottom: 100px;
+
+>>>>>>> 57cb995b8d54ce4c1e83016ca5c2109a41ec202d
 }
 
+.ico-bar__ico {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+.ico-bar__ico:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.footer__button {
+  color: #449cff;
+  background: white;
+  border: none; 
+  margin-left: 50px;
+  display: inline-block;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 16px;
+  width: 205px;
+  height: 55px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+}
+
+.footer__bold {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+
+}
+
+.footer__text {
+  display: inline-block;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 50px;
+  color: white;
+}
+
+.footer__wrapper{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 1140px;
+  margin: 0 auto;
+
+}
 .footer {
-  width: 100%;
+
+  
+  padding: 100px 0;
+  background: linear-gradient(39deg, #3695ff 0%, #3695ff 5%, #3564fc 30%, #3695ff 40%);
+
 }
