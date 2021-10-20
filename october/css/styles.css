@@ -816,5 +816,5 @@ template {
 
 .footer {
   padding: 100px 0;
-  background: linear-gradient(39deg, #3695ff 0%, #3695ff 30%, #3564fc 30%, #3695ff 40%);
+  background: linear-gradient(39deg, #3695ff 0%, #3695ff 5%, #3564fc 30%, #3695ff 40%);
 }
