@@ -29,6 +29,7 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 80px;
+  padding-bottom: 100px;
 
 }
 
@@ -43,6 +44,10 @@
 }
 
 .footer__button {
+  color: #449cff;
+  background: white;
+  border: none; 
+  margin-left: 50px;
   display: inline-block;
   font-family: Lato;
   font-weight: 700;
@@ -66,7 +71,7 @@
 }
 
 .footer__text {
-
+  display: inline-block;
   font-family: Lato;
   font-weight: 300;
   font-size: 50px;
@@ -74,11 +79,16 @@
 }
 
 .footer__wrapper{
-  
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 1140px;
+  margin: 0 auto;
+
 }
 .footer {
-  display: flex;
 
+  
   padding: 100px 0;
   background: linear-gradient(39deg, #3695ff 0%, #3695ff 30%, #3564fc 30%, #3695ff 40%);
 
