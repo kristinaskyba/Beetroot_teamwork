@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+.clients {
+  width: 100%;
+  background-color: #f1f8ff;
+  padding-top: 100px;
+
+}
+
 .clients__title {
   font-family: Lato;
   font-weight: 300;
   font-size: 50px;
   color: #3677fd;
+  text-align: center;
+  margin-bottom: 100px; /*УДАЛИТЬ*/
 }
 
 
@@ -22,3 +31,6 @@
 
 }
 
+.footer {
+  width: 100%;
+}

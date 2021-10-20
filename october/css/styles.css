@@ -723,11 +723,20 @@ template {
      @info all = https://developer.mozilla.org/ru/docs/Web/CSS/all
      @info unset = https://developer.mozilla.org/en-US/docs/Web/CSS/unset
 */
+.clients {
+  width: 100%;
+  background-color: #f1f8ff;
+  padding-top: 100px;
+}
+
 .clients__title {
   font-family: Lato;
   font-weight: 300;
   font-size: 50px;
   color: #3677fd;
+  text-align: center;
+  margin-bottom: 100px;
+  /*УДАЛИТЬ*/
 }
 
 .body {
@@ -747,4 +756,8 @@ template {
           align-items: center;
   margin: 0 auto;
   margin-top: 80px;
+}
+
+.footer {
+  width: 100%;
 }
