@@ -731,12 +731,11 @@ template {
 
 .clients__title {
   font-family: Lato;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 50px;
   color: #3677fd;
   text-align: center;
   margin-bottom: 100px;
-  /*УДАЛИТЬ*/
 }
 
 .body {
