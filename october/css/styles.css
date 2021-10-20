@@ -3,7 +3,7 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -735,6 +735,11 @@ template {
 }
 
 .clients__title {
+<<<<<<< HEAD
+=======
+  font-family: Lato;
+  font-weight: 700;
+>>>>>>> c3643e3c87556b42594df3ebdc6ee016c68cc313
   font-size: 50px;
   line-height: 35px;
   color: #3677fd;
@@ -772,7 +777,53 @@ template {
   margin-top: 80px;
 }
 
+.ico-bar__ico {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+.ico-bar__ico:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.footer__button {
+  display: inline-block;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 16px;
+  width: 205px;
+  height: 55px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.footer__bold {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.footer__text {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 50px;
+  color: white;
+}
+
 .footer {
+<<<<<<< HEAD
   width: 100%;
 >>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+  background: linear-gradient(39deg, #3695ff 0%, #3695ff 30%, #3564fc 30%, #3695ff 40%);
+>>>>>>> c3643e3c87556b42594df3ebdc6ee016c68cc313
 }
