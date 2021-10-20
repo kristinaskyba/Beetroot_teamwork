@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .clients__title {
@@ -7,6 +6,19 @@
   font-size: 50px;
   color: #3677fd;
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
->>>>>>> 25cb7ef42b4e13cda12f7a26d4a393bf80e80f08
+
+
+.body{
+  max-width: 2000px;
+}
+
+.clients__ico-bar{
+  display: flex;
+  min-width: 1140px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
+
+}
+
