@@ -1,12 +1,20 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.clients__title {
-  font-family: Lato;
-  font-weight: 300;
-  font-size: 50px;
-  color: #3677fd;
+.clients {
+  background-color: #f1f8ff;
+  max-width: 2000px;
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
->>>>>>> 25cb7ef42b4e13cda12f7a26d4a393bf80e80f08
+
+.clients__title {
+  font-size: 50px;
+  line-height: 35px;
+  color: #3677fd;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  padding-top: 100px;
+}
+
+.clients__ico-bar {
+  margin-top: 75px;
+}
