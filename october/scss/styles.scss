@@ -16,3 +16,8 @@
      @info unset = https://developer.mozilla.org/en-US/docs/Web/CSS/unset
 */
 @import 'main';
+
+body {
+   margin: 0;
+   border: 1px solid black;
+}
