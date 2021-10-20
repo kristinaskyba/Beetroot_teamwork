@@ -724,14 +724,21 @@ template {
      @info unset = https://developer.mozilla.org/en-US/docs/Web/CSS/unset
 */
 .clients {
+<<<<<<< HEAD
   background-color: #f1f8ff;
   max-width: 2000px;
+=======
+  width: 100%;
+  background-color: #f1f8ff;
+  padding-top: 100px;
+>>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
 }
 
 .clients__title {
   font-size: 50px;
   line-height: 35px;
   color: #3677fd;
+<<<<<<< HEAD
   font-weight: 300;
   font-family: "Lato";
   text-align: center;
@@ -740,4 +747,32 @@ template {
 
 .clients__ico-bar {
   margin-top: 75px;
+=======
+  text-align: center;
+  margin-bottom: 100px;
+  /*УДАЛИТЬ*/
+}
+
+.body {
+  max-width: 2000px;
+}
+
+.clients__ico-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 1140px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.footer {
+  width: 100%;
+>>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
 }
