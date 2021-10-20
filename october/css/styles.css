@@ -731,7 +731,11 @@ template {
   width: 100%;
   background-color: #f1f8ff;
   padding-top: 100px;
+<<<<<<< HEAD
 >>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
+=======
+  padding-bottom: 105px;
+>>>>>>> e7725153a3a9628bb95f4565238d213a81d25213
 }
 
 .clients__title {
@@ -758,7 +762,10 @@ template {
   margin-top: 75px;
 =======
   text-align: center;
+<<<<<<< HEAD
+=======
   margin-bottom: 100px;
+>>>>>>> 57cb995b8d54ce4c1e83016ca5c2109a41ec202d
 }
 
 .body {
