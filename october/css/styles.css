@@ -722,14 +722,23 @@ template {
      @info https://github.com/necolas/normalize.css/blob/master/normalize.css
      @info all = https://developer.mozilla.org/ru/docs/Web/CSS/all
      @info unset = https://developer.mozilla.org/en-US/docs/Web/CSS/unset
-<<<<<<< HEAD
 */
+.clients {
+  width: 100%;
+  background-color: #f1f8ff;
+  padding-top: 100px;
+}
+
 .clients__title {
   font-family: Lato;
   font-weight: 300;
   font-size: 50px;
   color: #3677fd;
+  text-align: center;
+  margin-bottom: 100px;
+  /*УДАЛИТЬ*/
 }
-=======
-*/
->>>>>>> 25cb7ef42b4e13cda12f7a26d4a393bf80e80f08
+
+.footer {
+  width: 100%;
+}
