@@ -724,48 +724,20 @@ template {
      @info unset = https://developer.mozilla.org/en-US/docs/Web/CSS/unset
 */
 .clients {
-<<<<<<< HEAD
-  background-color: #f1f8ff;
-  max-width: 2000px;
-=======
   width: 100%;
   background-color: #f1f8ff;
   padding-top: 100px;
-<<<<<<< HEAD
->>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
-=======
   padding-bottom: 105px;
->>>>>>> e7725153a3a9628bb95f4565238d213a81d25213
 }
 
 .clients__title {
-<<<<<<< HEAD
-=======
   font-family: Lato;
-<<<<<<< HEAD
-  font-weight: 700;
->>>>>>> c3643e3c87556b42594df3ebdc6ee016c68cc313
-=======
   font-weight: 300;
->>>>>>> a5d951b34b2346cd57b85eae8fb4be7adf4cd172
   font-size: 50px;
   line-height: 35px;
   color: #3677fd;
-<<<<<<< HEAD
-  font-weight: 300;
-  font-family: "Lato";
   text-align: center;
-  padding-top: 100px;
-}
-
-.clients__ico-bar {
-  margin-top: 75px;
-=======
-  text-align: center;
-<<<<<<< HEAD
-=======
   margin-bottom: 100px;
->>>>>>> 57cb995b8d54ce4c1e83016ca5c2109a41ec202d
 }
 
 .body {
@@ -831,15 +803,7 @@ template {
   color: white;
 }
 
-<<<<<<< HEAD
-.footer {
-<<<<<<< HEAD
-  width: 100%;
->>>>>>> 6d561c74fc2fb52546aa4f9b12529a64f6669ed0
-=======
-=======
 .footer__wrapper {
->>>>>>> a5d951b34b2346cd57b85eae8fb4be7adf4cd172
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -854,10 +818,5 @@ template {
 
 .footer {
   padding: 100px 0;
-<<<<<<< HEAD
-  background: linear-gradient(39deg, #3695ff 0%, #3695ff 30%, #3564fc 30%, #3695ff 40%);
->>>>>>> c3643e3c87556b42594df3ebdc6ee016c68cc313
-=======
   background: linear-gradient(39deg, #3695ff 0%, #3695ff 5%, #3564fc 30%, #3695ff 40%);
->>>>>>> 57cb995b8d54ce4c1e83016ca5c2109a41ec202d
 }
