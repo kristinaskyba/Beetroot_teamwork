@@ -17,7 +17,53 @@
 */
 @import 'main';
 
-body {
-   margin: 0;
-   border: 1px solid black;
+.expert {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   background-color: #f1f8ff;
+   padding-top: 50px;
+   
+   .expert__title-big {
+      font-size: 50px;
+      color: #3677fd;
+      font-weight: 300;
+      font-family: "Lato", sans-serif;
+      
+      margin-bottom: 50px;
+   }
+   .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      .expert__item {
+         width: 33%;
+         .expert__img {
+            margin-bottom: 60px;
+         }
+         .expert__title {
+            font-size: 24px;
+            line-height: 24px;
+            color: #3677FD;
+            font-weight: 700;
+            font-family: "Lato";
+            text-align: center;
+         }
+         .expert__text {
+           font-size: 16px;
+         line-height: 35px;
+         color: #5A5A5A;
+         font-weight: 400;
+         font-family: "Lato";
+         text-align: center;
+         margin: 25px auto 100px;
+         width: 78%;
+         }
+      }
+   }
 }
+
+ 
