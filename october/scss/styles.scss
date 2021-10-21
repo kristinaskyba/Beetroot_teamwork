@@ -6,8 +6,12 @@ body {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UIEmoji", "Segoe UI Symbol", "Noto ColorEmoji";
    font-size: 15px;
 
-
    background-color: #252525;
+}
+
+@font-face {
+   font-family: 'Myriad Pro';
+   src: url(../fonts/MYRIADPRO-REGULAR.OTF);
 }
 
 *,
@@ -24,12 +28,14 @@ body {
 .header {
    display: flex;
    justify-content: center;
+   width: 100%;
    margin: 0 auto;
    width: 100%;
    background-color: #194277;
 }
 
 .header__p {
+   margin-right: 40px;
    font-size: 14px;
    line-height: 36px;
    color: #ffffff;
@@ -39,53 +45,123 @@ body {
 
 .btn {
    width: 112px;
-   height: 30px;
+   border: solid 2px transparent;
    border-radius: 15px;
    color: blue;
    background-color: #ffffff;
+   padding: 5px 10px;
+   transition: border .5s linear;
+
+   &:hover {
+      border: 2px solid #4a98f8;
+   }
 }
 
 .container {
    width:100%;
-   height: 100vh;
+   min-height: 100vh;
+   padding-top: 40px;
+   padding-bottom: 80px;
 
+   position: relative;
 
    background-color: #132E4C;
 }
 
-.form__body {
+.container__arrow {
+   height: 25px;
+   position: absolute;
+   z-index: 2;
+   right: 50%;
+   bottom: 5%;
+   width: 24px;
+   fill: #868686;
+   opacity: .5;
+}
+
+.form-body {
    display: flex;
-   width: 80%;
+   width: 55%;
    margin: 0 auto;
-   padding: 30px 0;
+   padding: 40px 0;
+
+   border-radius: 10px;
    background-color: #fff;
+
+   position: relative;
+}
+
+.form-body__svg {
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 24px;
+   fill: #3677fd;
 }
 
 .form {
-
+   width: 100%;
    flex-direction: column;
    justify-content: center;
    margin: 0 auto;
+   padding:  0 145px;
 }
 
-input {
-   width: 300px;
-    margin-bottom: 30px;
-    padding: 10px;
+.form__title {
+   margin:0 0 40px 0;
+   font-size: 50px;
+   line-height: 1;
+   color: #3677fd;
+   font-family: "Myriad Pro";
+   text-align: center;
 }
 
-textarea {
-   /* overflow: auto; */
-   width: 300px;
-   height: 150px;
+.input {
+   width: 100%;
+   border-radius: 10px;
+   background-color: #ffffff;
+   border: 1px solid #b7c0c9;
    margin-bottom: 30px;
+   padding: 10px;
+
+   &:focus {
+      border: 2px solid #4a98f8;
+   }
 }
 
-.btn--form {
-   border-radius: 15px;
-   color: #fff;
-   background-color: blue;
-   padding: 15px;
+.textarea {
+   width: 100%;
+   height: 180px;
+   margin-bottom: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: #ffffff;
+   border: 1px solid #b7c0c9;
+
+   &:focus {
+      border: 2px solid #4a98f8;
+   }
+}
+
+.btn-form {
+   display: block;
+   margin: 0 auto;
+   width: 204px;
+   border: solid 1px #1A80FF;
+   border-radius: 27px;
+   background-image: linear-gradient(51deg, #3595ff 0%, #3564fc 100%);
+   font-size: 16px;
+   line-height: 30px;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: "Lato";
+   text-align: center;
+   padding: 10px 0;
+   transition: linear-gradient .5s linear;
+
+   &:hover {
+      background-image: linear-gradient(51deg, #3595ff 0%, #234ed7 100%);
+   }
 }
 
 
